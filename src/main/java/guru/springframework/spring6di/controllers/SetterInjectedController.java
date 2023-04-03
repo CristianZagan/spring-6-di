@@ -11,7 +11,6 @@ public class SetterInjectedController {
 
     private GreetingService greetingService;
 
-    //@Qualifier("setterGreetingBean")
     @Qualifier("setterGreetingBean")
     @Autowired
     public void setGreetingService(GreetingService greetingService) {
